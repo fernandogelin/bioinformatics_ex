@@ -39,10 +39,10 @@ motif_dict = count_motif(motif_list)
 
 # joins the motifs that occur at the same frequency and returns the most frequent motifs
 def count_motifs(motif_dict):
-    dict = {}
+    dic = {}
     for key, value in sorted(motif_dict.iteritems()):
-        dict.setdefault(value, []).append(key)
-    return dict
+        dic.setdefault(value, []).append(key)
+    return dic
 
 result = count_motifs(motif_dict)
 motifs = str(result[max(result)])
