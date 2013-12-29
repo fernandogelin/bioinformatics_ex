@@ -23,7 +23,21 @@ def theoretical_spectrum(peptide_list):
                 mass += table_mass[subpeptide[j]]
                 ts.append(mass)
                 sort = sorted(ts)
-    return sort[0:len(ts)-len(peptide_list)+1]
+    return " ".join([str(x) for x in sort[0:len(ts)-len(peptide_list)+1]])
                     
+
+def cyclopeptidesequencing(spectrum):
+    list_peptide = []
+    while list_peptide != []
+        list_peptide.append()
+    
+        for item in list_peptide:
+            if theoretical_spectrum(item) == spectrum:
+                return item
+                list_peptide.remove(item)
+            elif theoretical_spectrum(item) != spectrum:
+                list_peptide.remove(item)
             
-print " ".join([str(x) for x in theoretical_spectrum(peptide_list)])
+            
+    
+    
