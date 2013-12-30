@@ -9,7 +9,9 @@ body {
     color: white;
 }
 h1 {
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px #fff;
   text-align: center;
   color: black;
   padding-bottom: 50px;
@@ -22,6 +24,7 @@ h1 {
 	text-align:center;
 	float:none;
   margin-left: 20%;
+  margin-bottom: 10%;
 }
 .form-control {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif; 
@@ -30,13 +33,17 @@ h1 {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 	font-size:30px;
-	background-color: #4594C4 !important;
   height: 70px;
-  color:white;
+  color:gray;
+  border-radius: 0;
 }
 .form-control:focus {
 	background-color: white;
 }
 textarea.form-control {
   height: 300px;
+}
+#footnote {
+  text-align: center;
+  color: white;
 }

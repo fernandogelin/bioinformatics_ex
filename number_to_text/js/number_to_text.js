@@ -5,7 +5,9 @@ var NumberToText = {
 };
 
 var NumberName = function(StringInput) {
-  if (StringInput.length === 1) {
+  if (StringInput === "0") {
+    return "zero";
+  } else if (StringInput.length === 1) {
     StringNumber = "00" + StringInput;
   } else if (StringInput.length === 2) {
     StringNumber = "0" + StringInput;
