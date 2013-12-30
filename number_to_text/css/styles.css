@@ -1,0 +1,42 @@
+body {
+  background-color:#3788C1;
+  margin-top: 10em;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif; 
+	font-weight: lighter;
+	font-smooth: antialiased;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: white;
+}
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+  color: black;
+  padding-bottom: 50px;
+  font-size: 60px;
+}
+.form-group {
+  width: 75%;
+}
+.container {
+	text-align:center;
+	float:none;
+  margin-left: 20%;
+}
+.form-control {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif; 
+	font-weight: lighter;
+	font-smooth: antialiased;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+	font-size:30px;
+	background-color: #4594C4 !important;
+  height: 70px;
+  color:white;
+}
+.form-control:focus {
+	background-color: white;
+}
+textarea.form-control {
+  height: 300px;
+}
